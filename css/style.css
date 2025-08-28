@@ -1431,5 +1431,18 @@ html{
         -ms-user-select: none;
         user-select: none;
         pointer-events: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        text-decoration: none;
+        color: var(--main-color) !important;
+        font-weight: normal !important;
+        font-style: normal !important;
+    }
+    
+    .experience-content .content .year i {
+        -webkit-text-size-adjust: none;
+        -webkit-touch-callout: none;
+        pointer-events: none;
     }
 }
