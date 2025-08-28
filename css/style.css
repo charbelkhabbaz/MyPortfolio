@@ -1393,3 +1393,43 @@ html{
         width: 100%;
     }
 }
+
+@media (max-width: 900px) {
+    .skills .title {
+        align-self: center;
+        margin-left: 0;
+    }
+    
+    .soft-skills-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto;
+        gap: 1rem 2rem;
+        justify-items: center;
+    }
+    
+    .soft-skills-list span {
+        text-align: center;
+        padding-left: 1.2rem;
+        position: relative;
+    }
+    
+    .soft-skills-list span::before {
+        content: '\2022';
+        position: absolute;
+        left: 0;
+        color: var(--text-color);
+        display: block;
+    }
+    
+    .experience-content .content .year {
+        -webkit-text-size-adjust: none;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        pointer-events: none;
+    }
+}
